@@ -31,6 +31,11 @@ h3 {
     margin: 0;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+}
+
 .brownbread__image {
     width: 580px;
 }
@@ -42,6 +47,7 @@ h3 {
 .brownbread__title {
     font-weight: 700;
     font-size: 26px;
+    margin-bottom: 10px;
 }
 
 .brownbread__desc {
@@ -49,16 +55,23 @@ h3 {
     font-size: 16px;
     opacity: 0.7;
     line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.brownbread__price {
+    display: flex;
+    align-items: flex-end;
 }
 
 .brownbread__cost {
     font-weight: 500;
-    font-size: 26;
+    font-size: 26px;
+    margin-right: 10px;
 }
 
 .brownbread__cost2 {
     font-weight: 500;
-    font-size: 20;
+    font-size: 20px;
 }
 
 .brownbread__button {
@@ -69,4 +82,6 @@ h3 {
     padding-left: 46px;
     padding-right: 46px;
     color: white;
+    border-style: none;
+    margin-top: 10px;
 }
