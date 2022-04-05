@@ -31,6 +31,10 @@ h3 {
     margin: 0;
 }
 
+.brownbread {
+    max-width: 1119px 415px;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -60,7 +64,7 @@ h3 {
 
 .brownbread__price {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .brownbread__cost {
@@ -72,6 +76,7 @@ h3 {
 .brownbread__cost2 {
     font-weight: 500;
     font-size: 20px;
+    color: grey;
 }
 
 .brownbread__button {
