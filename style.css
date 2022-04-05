@@ -32,7 +32,7 @@ h3 {
 }
 
 .brownbread {
-    max-width: 1119px 415px;
+    max-width: 1119px;
 }
 
 .container {
@@ -42,6 +42,7 @@ h3 {
 
 .brownbread__image {
     width: 580px;
+    max-width: 480px;
 }
 
 .brownbread__info {
